@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(175, 163, 163);
+    width: 600px;
+    text-align: center;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+input {
+    width: 250px;
+    padding: 0 10px;
+    margin-top: 30px;
+    height: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+input {
+    width: 400px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#cr {
+    width: 140px;
+    margin-top: 30px;
+}
+
+/* CSS for devices with a viewport width of 576 pixels or less */
+@media only screen and (max-width: 576px) {
+
+    /* Your styles for mobile devices go here */
+    body {
+        font-size: 14px;
+        /* Adjust font size for better readability on smaller screens */
+    }
+
+    .container {
+        background-color: rgb(175, 163, 163);
+        width: 100px;
+        text-align: center;
+        height: 600px;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+
+    input {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    /* Add more styles as needed */
+}
